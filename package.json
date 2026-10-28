@@ -1,0 +1,30 @@
+{
+  "devDependencies": {
+    "@babel/core": "^7.17.0",
+    "@babel/preset-env": "^7.16.0",
+    "@prettier/plugin-php": "^0.25.0",
+    "@symfony/webpack-encore": "^4.0.0",
+    "core-js": "^3.23.0",
+    "prettier": "^3.8.3",
+    "regenerator-runtime": "^0.14.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-notifier": "^1.15.0"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "dev-server": "encore dev-server",
+    "dev": "encore dev",
+    "watch": "encore dev --watch",
+    "build": "encore production --progress"
+  },
+  "dependencies": {
+    "@zackad/prettier-plugin-twig": "^0.17.0",
+    "bootstrap": "^5.2.3",
+    "file-loader": "^6.2.0",
+    "js-cookie": "^3.0.5",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0"
+  }
+}

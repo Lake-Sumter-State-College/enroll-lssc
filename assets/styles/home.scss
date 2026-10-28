@@ -1,0 +1,219 @@
+.carousel {
+  margin-top: 9.875rem;
+  @include media-breakpoint-up(md) {
+    margin-top: 5.125rem;
+  }
+  position: relative;
+
+  & > img {
+    height: 12rem;
+    @include media-breakpoint-up(lg) {
+      height: 45rem;
+    }
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .carousel-hawk {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+
+    img {
+      height: 112%;
+      position: absolute;
+      right: 0;
+    }
+  }
+
+  .carousel-headline {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5rem;
+    @include media-breakpoint-up(lg) {
+      padding: 1rem;
+    }
+
+    h2 {
+      @include media-breakpoint-up(lg) {
+        font-size: 5rem;
+      }
+      font-size: 1.4rem;
+      line-height: 1;
+      margin-bottom: -0.5rem;
+    }
+  }
+}
+
+#question-one-photo {
+  position: absolute;
+  width: 100%;
+  @include media-breakpoint-up(lg) {
+    width: 30%;
+  }
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+#question-two-photo {
+  position: absolute;
+  width: 100%;
+  @include media-breakpoint-up(lg) {
+    width: 30%;
+  }
+  top: 0;
+  @include media-breakpoint-up(lg) {
+    top: auto;
+    bottom: 0;
+  }
+  right: 0;
+  z-index: -1;
+}
+.question-box {
+  @include bg-yellow-orange;
+  @include box-round-shadow;
+  color: #000;
+  padding: 2rem;
+
+  p {
+    color: #000;
+  }
+}
+
+.calendar-date {
+  padding: 1rem;
+  background: transparent url("../images/home/admissions-calendar.svg") center no-repeat;
+  background-size: contain;
+  width: 8rem;
+  height: 10rem;
+  flex-shrink: 0;
+
+  .month {
+    margin-top: 1.2rem;
+    font-family: "area-normal";
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .day {
+    margin-top: 1.4rem;
+    font-family: "area-normal";
+    font-size: 3.2rem;
+    line-height: 1;
+    text-align: center;
+    color: #212121;
+  }
+}
+
+.date-desc {
+  padding: 1rem;
+}
+
+.upcoming-events {
+  padding: 4rem 0;
+
+  .event {
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+    background-color: $yellow;
+    @include box-round-shadow;
+    align-items: center;
+
+    .event-date {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem 0;
+      width: 6rem;
+      @include media-breakpoint-up(lg) {
+        width: 10rem;
+      }
+      flex-shrink: 0;
+
+      .event-day {
+        font-family: "area-normal";
+        font-weight: 400;
+        font-size: 2rem;
+        @include media-breakpoint-up(lg) {
+          font-size: 5rem;
+        }
+        line-height: 1;
+      }
+      .event-month {
+        font-size: 1.25rem;
+        @include media-breakpoint-up(lg) {
+          font-size: 2rem;
+        }
+        font-family: "area-normal";
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+    }
+
+    .event-desc {
+      height: 100%;
+      background-color: #fff;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      @include media-breakpoint-up(lg) {
+        font-size: 1.25rem;
+        padding: 2rem;
+      }
+      font-weight: 600;
+
+      a {
+        font-weight: 400;
+        text-decoration: none;
+        color: #000;
+
+        span {
+          color: $yellow;
+        }
+      }
+    }
+  }
+}
+
+.select-want {
+  @include bg-yellow-orange;
+  border: none;
+  border-radius: 0.4rem;
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 1rem;
+  text-align: center;
+
+  &,
+  &:hover,
+  &:active,
+  &:focus {
+    color: #000 !important;
+  }
+
+  @include media-breakpoint-up(lg) {
+    margin-left: 2rem;
+    flex-grow: 1;
+  }
+}
+
+.financial-hawk {
+  position: absolute;
+  top: -10rem;
+  left: 2rem;
+  background: transparent url("../images/home/hawk-silhouette-home.png") center no-repeat;
+  width: 50%;
+  height: 120%;
+  background-size: contain;
+}
+
+.form-check-input {
+  color: #000;
+}

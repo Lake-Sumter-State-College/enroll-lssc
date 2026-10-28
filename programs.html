@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+		<title>
+			Programs - Lake-Sumter State College
+		</title>
+		<link rel="shortcut icon" type="image/png" href="/public/build/images/favicon.png"/>
+		    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/public/build/app.407ca1ee.css" />
+			<link rel="stylesheet" href="/public/bundles/mikeamelungcranial/cranial.css"/>
+			<link rel="preconnect" href="https://fonts.googleapis.com"/>
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+			<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"/>
+			<link rel="stylesheet" href="https://use.typekit.net/civ5xkp.css"/>
+		
+		
+	<script src="/public/build/app.js"></script>
+    <script src="https://kit.fontawesome.com/4aef318aa8.js" crossorigin="anonymous"></script>
+</head>
+	<body>
+		
+
+		
+			<div id="cranial"></div>
+		
+
+		<header class="fixed-top bg-white">
+			<div class="container mb-1rem mb-lg-0">
+				<div class="d-flex flex-column flex-lg-row align-items-lg-center bg-white">
+					<nav class="navbar navbar-expand-lg navbar-light bg-light flex-grow-1" aria-label="Main navigation">
+						<div class="container align-items-center p-0">
+							<a class="navbar-brand" href="https://www.lssc.edu">
+								<img class="navbar-logo" src="/public/build/images/logo-horizontal.png" alt="Lake-Sumter State College Logo" width="291" height="96"/>
+							</a>
+							<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon w-75 h-75" aria-hidden="true"></span>
+							</button>
+							<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav ms-auto my-2 mb-lg-0 me-lg-4">
+									<li class="nav-item">
+										<a class="nav-link" href="/index.html">
+											Enrollment
+										</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link active" href="/programs.html">
+											Programs
+										</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="/why-lssc.html">
+											Why LSSC
+										</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="/admissions.html">
+											Admissions
+										</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="/financial-aid.html">
+											Financial Aid
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+					<div class="container nav-apply-now p-0 d-flex">
+						<a class="nav-link btn btn-yellow flex-grow-1" target="_blank" href="https://lssc.my.salesforce-sites.com/inquiry/TargetX_Base__InquiryForm#?formId=a0BDn000002hEGZMA2&formType=general">
+							Request Info
+						</a>
+						<a class="nav-link btn btn-yellow ms-3 flex-grow-1" target="_blank" href="https://banner.lssc.edu/apexprod/r/rtsdba/apply/login">
+							Apply Now
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="nav-yellow-bar"></div>
+		</header>
+
+
+		<main id="main-content" tabindex="-1"> <div class="page-header">
+		<h1 class="page-title visually-hidden">Programs</h1>
+		<img class="img-fluid" src="/public/build/images/programs/header.png" alt="Programs"/>
+	</div>
+
+	<div class="page-intro">
+		<div class="container">
+			<h1>Let’s get you on the right flight path!</h1>
+			<div class="text-center">
+				<p class="mx-auto col-md-6 col-sm-12">
+					We have so many options for you to pursue a degree, certificate, endorsement, and more at LSSC. This is where it all begins: the connections, the community, and the endless possibilities that await you. Start your journey with us and discover the opportunities that will shape your future.
+				</p>
+				<div class="col-4 mx-auto">
+					<a href="https://www.lssc.edu/academics/academic-programs/" class="btn-search" id="search-link">
+						Search Our Programs
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="bg-yellow-orange py-4rem mt-5">
+		<div class="container text-center">
+			<h2 class="fs-4 mb-2rem h6">Not sure what program or career is right for you?</h2>
+			<div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
+				<a class="mb-3 mb-lg-0 btn btn-white" target="_blank" href="https://lssc.mymajors.com/quiz" rel="noopener">
+					Complete our Assessment
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="box-round-shadow p-2rem">
+			<div class="">
+				<form id="form-search">
+					<div class="d-flex flex-column flex-lg-row mb-2rem">
+						<label class="visually-hidden" for="keyword">Search Programs or Keywords</label>
+						<input class="input-search" type="text" id="keyword" placeholder="Search Programs or Keywords"/>
+						<button class="btn-search" id="search-button">Search</button>
+					</div>
+				</form>
+				<div class="d-flex flex-column flex-lg-row">
+					<label class="visually-hidden" for="program_type">Browse by Program Type</label>
+					<select class="select-search" id="program_type">
+						<option value="">
+							Browse by Program Type
+						</option>
+						<option value="Bachelor's Degree">
+							Bachelor's Degree
+						</option>
+						<option value="Associate's Degree">
+							Associate's Degree
+						</option>
+						<option value="Advanced Technical Certificate">
+							Advanced Technical Certificate
+						</option>
+						<option value="College Credit Certificate">
+							College Credit Certificate
+						</option>
+						<option value="Workforce Career Training / Non-Credit">
+							Workforce Career Training / Non-Credit
+						</option>
+						<option value="Early College Programs (K-12)">
+							Early College Programs (K-12)
+						</option>
+					</select>
+					<label class="visually-hidden" for="area_of_interest">Browse by Interest</label>
+					<select class="select-search" id="area_of_interest">
+						<option value="">
+							Browse by Interest
+						</option>
+						<option value="Public Safety">
+							Public Safety
+						</option>
+						<option value="Health Care">
+							Health Care
+						</option>
+						<option value="Business">
+							Business
+						</option>
+						<option value="Communication, Design">
+							Communication, Design
+						</option>
+						<option value="Science, Technology, Engineering, Math">
+							Science, Technology, Engineering, Math
+						</option>
+						<option value="Education">
+							Education
+						</option>
+						<option value="Arts, Humanities">
+							Arts, Humanities
+						</option>
+						<option value="Transportation &amp; Logistics">
+							Transportation &amp; Logistics
+						</option>
+						<option value="Utility Distribution">
+							Utility Distribution
+						</option>
+						<option value="Real Estate">
+							Real Estate
+						</option>
+						<option value="Unmanned Aerial Vehicles">
+							Unmanned Aerial Vehicles
+						</option>
+						<option value="Early College Programs (K-12)">
+							Early College Programs (K-12)
+						</option>
+					</select>
+					<label class="visually-hidden" for="location">Browse by Location</label>
+					<select class="select-search" id="location">
+						<option value="">
+							Browse by Location
+						</option>
+						<option value="On Campus, Hybrid">
+							On Campus, Hybrid
+						</option>
+						<option value="Online">
+							Online
+						</option>
+					</select>
+				</div>
+			</div>
+			<p id="program-status" role="status" aria-atomic="true"></p>
+			<div id="program-output">
+				<p>
+					Make selections above to see our programs that fit you.
+				</p>
+				<p>
+					<a id="show_all" href="#">View all programs</a>
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="bg-green py-4rem position-relative overflow-hidden">
+		<div class="green-spotlight"></div>
+		<div class="container position-relative">
+			<div class="text-center mb-4rem col-md-8 col-sm-12 mx-auto">
+				<div>
+					<h2>Student Support Services:<br/><em class="c-yellow">Together, we soar!</em>
+					</h2>
+					<p>
+						Your success is what we’re all about, so if you’re struggling with classes, worried about getting a job, or just not feeling yourself lately, we’ve got the people and resources to help keep you moving forward.
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-lg-4 mb-4rem mb-lg-0">
+					<div>
+						<div class="icon-and-text">
+							<div class="icon">
+								<img src="/public/build/images/programs/icon-enrollmentsupport.svg" alt=""/>
+							</div>
+							<div class="text">
+								<h2 class="h6 text-uppercase">
+									Enrollment Support
+								</h2>
+								<p>
+									If you’re a new student, or even a returning one, you’ve probably got some questions. So, let’s talk through those academic goals of yours and see how they match up with your career aspirations.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-4 mb-4rem mb-lg-0">
+					<div>
+						<div class="icon-and-text">
+							<div class="icon">
+								<img src="/public/build/images/programs/icon-advising.svg" alt=""/>
+							</div>
+							<div class="text">
+								<h2 class="h6 text-uppercase">
+									Advising
+								</h6>
+								<p>
+									In-person, online, or over the phone, talking to your own dedicated academic advisor is as easy as setting up an appointment.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-4">
+					<div>
+						<div class="icon-and-text">
+							<div class="icon">
+								<img src="/public/build/images/programs/icon-careers.svg" alt=""/>
+							</div>
+							<div class="text">
+								<h2 class="h6 text-uppercase">
+									Career Development Opportunities
+								</h2>
+								<p>
+									Everyone's path to a career is unique, so our career advisors can help you find the right program to fit your goals.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="testimonial">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-3 offset-lg-1 d-flex align-items-center">
+					<div class="testimonial-photo">
+						<img class="img-fluid" src="/public/build/images/programs/jossette-white.png" alt="JOSSETTE WHITE">
+					</div>
+				</div>
+				<div class="col-12 col-lg-7 d-flex align-items-center">
+					<div class="testimonial-body">
+						<div class="testimonial-text">
+							The faculty and staff at Lake-Sumter State College truly care about student success. Coming back to college was intimidating as a mom, but everyone I have met along the way has been supportive and encouraging.
+						</div>
+						<div>
+							<div class="testimonial-name">JOSSETTE WHITE</div>
+							<div>Class of 2024</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+			<div class="bg-yellow-orange py-4rem">
+				<div class="container text-center">
+					<h2 class="fs-4 mb-2rem">Ready to take flight?</h2>
+					<div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
+						<a class="mb-3 mb-lg-0 btn btn-white" target="_blank" href="https://lssc.my.salesforce-sites.com/inquiry/TargetX_Base__InquiryForm#?formId=a0BDn000002hEGZMA2&formType=general">
+							Request Info
+						</a>
+						<a class="ms-lg-3 mb-3 mb-lg-0 btn btn-white" target="_blank" href="https://www.lssc.edu/future-students/visit/">
+							Visit
+						</a>
+						<a class="ms-lg-3 mb-3 mb-lg-0 btn btn-white" target="_blank" href="https://banner.lssc.edu/apexprod/r/rtsdba/apply/login">
+							Apply Now
+						</a>
+						<a class="ms-lg-3 btn btn-white" target="_blank" href="https://www.lssc.edu/dept/enrollment-service-center/">
+							Enrollment Support
+						</a>
+						<a class="ms-lg-3 btn btn-white" target="_blank" href="https://www.lssc.edu/academic-programs/" rel="nofollow noopener">
+							Find Your Program
+						</a>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer>
+			<div class="container d-flex flex-column align-items-center">
+				<img class="footer-logo" src="/public/build/images/logo-vertical.png" alt="Lake-Sumter State College"/>
+				<div class="social-links">
+					<a href="http://facebook.com/LakeSumterStateCollege" aria-label="Like us on Facebook">
+						<i class="fa-brands fa-facebook-f"></i>
+					</a>
+					<a href="https://x.com/LSSCedu" aria-label="Follow us on X">
+						<i class="fa-brands fa-x-twitter"></i>
+					</a>
+					<a href="http://instagram.com/lakesumterstatecollege" aria-label="Connect with us on Instagram">
+						<i class="fa-brands fa-instagram"></i>
+					</a>
+					<a href="https://www.linkedin.com/school/lsscedu" aria-label="Connect with us on LinkedIn">
+						<i class="fa-brands fa-linkedin"></i>
+					</a>
+				</div>
+			</div>
+			<div id="copyright-and-privacy" class="p-3">
+				<div class="container d-flex flex-column flex-lg-row justify-content-between">
+					<div>
+						&copy;
+						
+						Lake-Sumter State College
+					</div>
+					<div>
+						<a href="https://www.lssc.edu/consumer-information/">Consumer Info</a>
+						|
+						<a href="https://www.lssc.edu/about-us/accreditation/">Accreditation Statement</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+		
+	</body>
+</html>

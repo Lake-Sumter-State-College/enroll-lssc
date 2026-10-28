@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+		<title>
+			Lake-Sumter State College
+		</title>
+		<link rel="shortcut icon" type="image/png" href="/public/build/images/favicon.png"/>
+		    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/public/build/app.407ca1ee.css" />
+			<link rel="preconnect" href="https://fonts.googleapis.com"/>
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+			<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"/>
+			<link rel="stylesheet" href="https://use.typekit.net/civ5xkp.css"/>
+	<script src="/public/build/app.js"></script>
+    <script src="https://kit.fontawesome.com/4aef318aa8.js" crossorigin="anonymous"></script>
+</head>
+	<body>
+		<header class="fixed-top bg-white">
+			<div class="container mb-1rem mb-lg-0">
+				<div class="d-flex flex-column flex-lg-row align-items-lg-center bg-white">
+					<nav class="navbar navbar-expand-lg navbar-light bg-light flex-grow-1" aria-label="Main navigation">
+						<div class="container align-items-center p-0">
+							<a class="navbar-brand" href="https://www.lssc.edu">
+								<img class="navbar-logo" src="/public/build/images/logo-horizontal.png" alt="Lake-Sumter State College Logo"/>
+							</a>
+							<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon w-75 h-75" aria-hidden="true"></span>
+							</button>
+							<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav ms-auto my-2 mb-lg-0 me-lg-4">
+									<li class="nav-item">
+										<a class="nav-link active" href="/index.html">
+											Enrollment
+										</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="/programs.html">
+											Programs
+										</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="/why-lssc.html">
+											Why LSSC
+										</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="/admissions.html">
+											Admissions
+										</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="/financial-aid.html">
+											Financial Aid
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+					<div class="container nav-apply-now p-0 d-flex">
+						<a class="nav-link btn btn-yellow flex-grow-1" target="_blank" href="https://lssc.my.salesforce-sites.com/inquiry/TargetX_Base__InquiryForm#?formId=a0BDn000002hEGZMA2&formType=general">
+							Request Info
+						</a>
+						<a class="nav-link btn btn-yellow ms-3 flex-grow-1" target="_blank" href="https://banner.lssc.edu/apexprod/r/rtsdba/apply/login">
+							Apply Now
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="nav-yellow-bar"></div>
+		</header>
+
+
+		<main id="main-content" tabindex="-1"> <div class="carousel">
+		<img class="img-fluid" src="/public/build/images/home/slider-1.png" alt="Group of students in graduation attire, one person with curly blonde hair and red lipstick smiling at camera." width="1881" height="719"/>
+		<div class="bg-green-neon-green c-white">
+			<div class="container">
+				<h1 class="h2 c-white f-relation-two py-2">See your future from here!</h1>
+			</div>
+		</div>
+	</div>
+
+	<div class="container py-4rem">
+		<div class="col-md-12 col-lg-6 mx-auto">
+			<div class="text-center">
+				<img src="/public/build/images/home/lakehawk-sports-logo.svg" alt="" width="457" height="256"/>
+				<h2 class="h1 mb-4">Ready to spread your wings?</h2>
+				<p>Your LSSC experience will be unique and tailored just for you!
+					<a href="https://lakesumter.co/admissions" rel="nofollow noopener" target="_blank">Explore our Catalog</a>
+					for admissions details. If you’re not sure,
+					<a href="https://LSSC.mymajors.com/quiz" rel="nofollow noopener" target="_blank">complete our career assessment</a>
+					to find your best fit, or click below and we’ll guide you through your next steps.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-lg-8 offset-lg-2">
+				<div class="d-flex flex-column flex-lg-row mb-2rem">
+					<label for="i_want" class="h2 text-nowrap">I want to...</label>
+					<select id="i_want" class="select-want">
+						<option value="want-1">go to college for the first time.</option>
+						<option value="want-2">earn college credits while still in high school.</option>
+						<option value="want-3">transfer from another college or university.</option>
+						<option value="want-4">come back to LSSC after going away for a bit.</option>
+						<option value="want-5">take select LSSC courses while in college elsewhere.</option>
+						<option value="want-6">attend LSSC as an international student.</option>
+						<option value="want-7">take classes but not earn a certificate or degree.</option>
+						<option value="want-8">take non-credit workforce courses or earn certificates.</option>
+						<option value="want-9">continue my education in a different LSSC program.</option>
+						<option value="want-10">participate in a program while in elementary, middle or high school (K-12).</option>
+					</select>
+				</div>
+				<div id="want-result" aria-live="polite" aria-atomic="true">
+					<div id="want-1">
+						<p>Let your educational journey begin! There’s plenty to be excited about as you wade into your college experience. You may even be a little nervous, but don’t worry we’ll be right there with you, helping you zero in on your educational needs and career goals. This is about what’s best for you, and we’re here to make it happen!</p>
+						<p>
+							<a class="link-cta link-arrow" href="/why-lssc">Explore LSSC</a>
+						</p>
+						<p>
+							<a class="link-cta link-arrow" href="/programs">Explore our programs</a>
+						</p>
+						<p>
+							<a class="link-cta link-arrow" href="/admissions">Get started with enrollment</a>
+						</p>
+						<p>
+							<a class="link-cta link-arrow" href="https://lssc.mymajors.com/quiz/" target="_blank" rel="nofollow noopener">Take our assessment to discover the best path for your future</a>
+						</p>
+					</div>
+					<div id="want-2" class="d-none">
+						<p>Getting a head start? Good for you! Our popular dual enrollment program lets you take post-secondary classes while still in high school. You can even earn career and industry certificates or go ahead and get an associate degree from one of Florida’s public or private universities. You’ll save time and money and be way ahead of the pack. Talk about making good life decisions.</p>
+						<p>
+							<a class="link-cta link-arrow" href="/why-lssc">Explore LSSC</a>
+						</p>
+						<p>
+							<a class="link-cta link-arrow" href="/programs">Explore our programs</a>
+						</p>
+						<p>
+							<a class="link-cta link-arrow" href="/admissions">Get started with enrollment</a>
+						</p>
+						<p>
+							<a class="link-cta link-arrow" href="https://lssc.mymajors.com/quiz/" target="_blank" rel="nofollow noopener">Take our assessment to discover the best path for your future</a>
+						</p>
+					</div>
+					<div id="want-3" class="d-none">
+						<p>Let’s make this seamless! We’re excited that you’re considering transferring to LSSC. No matter where you left off at your previous school, we believe that you’ll find a home and success here. We have a large community of transfer students and plenty of support services to make the transition as easy as possible. Get ready to be a Lakehawk!</p>
+						<p>
+							<a class="link-cta link-arrow" href="/why-lssc">Explore LSSC</a>
+						</p>
+						<p>
+							<a class="link-cta link-arrow" href="/programs">Explore our programs</a>
+						</p>
+						<p>
+							<a class="link-cta link-arrow" href="/admissions">Get started with enrollment</a>
+						</p>
+						<p>
+							<a class="link-cta link-arrow" href="https://lssc.mymajors.com/quiz/" target="_blank" rel="nofollow noopener">Take our assessment to discover the best path for your future</a>
+						</p>
+					</div>
+					<div id="want-4" class="d-none">
+						<p>You always have a home here! You can expect the same amazing support as we get you re-enrolled and back on track to hit your educational goals. There’s likely been a few changes since you were here, but our admissions team will walk you through your next steps, so you can settle back in with ease. Let’s do this together!</p>
+						<p>
+							<a class="link-cta link-arrow" href="/why-lssc">Explore LSSC</a>
+						</p>
+						<p>
+							<a class="link-cta link-arrow" href="/programs">Explore our programs</a>
+						</p>
+						<p>
+							<a class="link-cta link-arrow" href="/admissions">Get started with enrollment</a>
+						</p>
+						<p>
+							<a class="link-cta link-arrow" href="https://lssc.mymajors.com/quiz/" target="_blank" rel="nofollow noopener">Take our assessment to discover the best path for your future</a>
+						</p>
+					</div>
+					<div id="want-5" class="d-none">
+						<p>Credits are credits! In many cases if you’re enrolled at another institution, you can take classes at LSSC and have those credits transfer to your home school. It’s an excellent way to save time and money, especially since we offer so many ways to do it in-person, online, or hybrid. Our ultimate goal is to get you the courses and credits you need to be successful. We can make that happen!</p>
+						<p>
+							<a class="link-cta link-arrow" href="/why-lssc">Explore LSSC</a>
+						</p>
+						<p>
+							<a class="link-cta link-arrow" href="/programs">Explore our programs</a>
+						</p>
+						<p>
+							<a class="link-cta link-arrow" href="/admissions">Get started with enrollment</a>
+						</p>
+						<p>
+							<a class="link-cta link-arrow" href="https://lssc.mymajors.com/quiz/" target="_blank" rel="nofollow noopener">Take our assessment to discover the best path for your future</a>
+						</p>
+					</div>
+					<div id="want-6" class="d-none">
+						<p>We love our international students here! They bring a wealth of cultures and backgrounds to campus, making everyone’s experience that much better. There are a few extra things you’ll need to do to apply and get enrolled, but our admissions staff is ready to help. Once you're here, you'll find a welcoming community that wants to see you succeed.</p>
+						<p>
+							<a class="link-cta link-arrow" href="/why-lssc">Explore LSSC</a>
+						</p>
+						<p>
+							<a class="link-cta link-arrow" href="/programs">Explore our programs</a>
+						</p>
+						<p>
+							<a class="link-cta link-arrow" href="/admissions">Get started with enrollment</a>
+						</p>
+						<p>
+							<a class="link-cta link-arrow" href="https://lssc.mymajors.com/quiz/" target="_blank" rel="nofollow noopener">Take our assessment to discover the best path for your future</a>
+						</p>
+					</div>
+					<div id="want-7" class="d-none">
+						<p>Just here to learn something new? We love it! Exploring our catalogue of programs and courses is a great way to find your passion, boost your career, collect some credits or just engage your mind. You can do it online, in-person or a combination of both. However you choose to keep your mind and skills sharp, we’re here for it!</p>
+						<p>
+							<a class="link-cta link-arrow" href="/why-lssc">Explore LSSC</a>
+						</p>
+						<p>
+							<a class="link-cta link-arrow" href="/programs">Explore our programs</a>
+						</p>
+						<p>
+							<a class="link-cta link-arrow" href="/admissions">Get started with enrollment</a>
+						</p>
+						<p>
+							<a class="link-cta link-arrow" href="https://lssc.mymajors.com/quiz/" target="_blank" rel="nofollow noopener">Take our assessment to discover the best path for your future</a>
+						</p>
+					</div>
+					<div id="want-8" class="d-none">
+						<p>Ready to get to work fast? Then we probably have a certificate or endorsement in the industry you’re interested in. You’ll find everything from aviation to healthcare to real estate at LSSC. Some certificates can be earned in as little as six weeks! Our non-credit workforce courses, endorsements, or certificates are designed to meet your career goals and the employment needs of the surrounding area. It’s the perfect partnership!</p>
+						<p>
+							<a class="link-cta link-arrow" href="/why-lssc">Explore LSSC</a>
+						</p>
+						<p>
+							<a class="link-cta link-arrow" href="https://lssc.catalog.instructure.com/browse/continuingeducation">Explore our program</a>
+						</p>
+						<p>
+							<a class="link-cta link-arrow" href="/admissions">Get started with enrollment</a>
+						</p>
+						<p>
+							<a class="link-cta link-arrow" href="https://lssc.mymajors.com/quiz/" target="_blank" rel="nofollow noopener">Take our career assessment to discover the best path for your future</a>
+						</p>
+					</div>
+					<div id="want-9" class="d-none">
+						<p>Let’s keep a good thing going! Since you’re already a student at LSSC, we can easily help you craft a pathway that takes you to the next level. Maybe it’s a Bachelors of Arts in Strategic Leadership or B.S. in Nursing. Or if you’re a student in our Allied Health program, we can get you enrolled in our Associates in Nursing or Medical Lab Tech program. Need a certificate? Then let’s talk about our College Credit Certificate or Advanced Training program. Already have a certificate? Then we’ve got an Associates program for you.</p>
+						<p>
+							<a class="link-cta link-arrow" href="/why-lssc">Explore LSSC</a>
+						</p>
+						<p>
+							<a class="link-cta link-arrow" href="/programs">Explore our programs</a>
+						</p>
+						<p>
+							<a class="link-cta link-arrow" href="/admissions">Get started with enrollment</a>
+						</p>
+						<p>
+							<a class="link-cta link-arrow" href="https://lssc.mymajors.com/quiz/" target="_blank" rel="nofollow noopener">Take our career assessment to discover the best path for your future</a>
+						</p>
+					</div>
+					<div id="want-10" class="d-none">
+						<p>Become a Lakehawk in as early as first grade! Our Early College Programs provide a variety of engaging learning opportunities throughout Lake and Sumter Counties. We have camps and short-term programs, developmental courses, and several ways to earn college credits through our dual enrollment and early college academies. Get ready to take flight!</p>
+						<p>
+							<a class="link-cta link-arrow" href="https://www.lssc.edu/dept/early-college-programs/">Explore Program Offerings</a>
+						</p>
+						<p>
+							<a class="link-cta link-arrow" href="/admissions">Get started with enrollment</a>
+						</p>
+						<p>
+							<a class="link-cta link-arrow" href="https://lssc.mymajors.com/quiz/" target="_blank" rel="nofollow noopener">Take our career assessment to discover the best path for your future</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="three-images mt-4rem">
+		<img src="/public/build/images/home/photo-1.png" alt="Line worker students in safety gear working and climbing on wooden utility poles outdoors, clear blue sky background." width="492" height="355"/>
+		<img src="/public/build/images/home/photo-2.png" alt="Three individuals at table, smiling and viewing laptop together in classroom setting." width="492" height="355"/>
+		<img src="/public/build/images/home/photo-3.png" alt="Mom in baseball cap hugs son in yellow tank top; both facing camera." width="492" height="355"/>
+	</div>
+
+	<div class="bg-green py-4rem text-center">
+		<div class="container-fluid ">
+			<div class="container mb-4rem">
+				<div class="row">
+					<div class="col-12 col-lg-6 mx-auto">
+						<h2>
+							<em class="c-yellow">It’s time for you to fly!</em>
+						</h2>
+						<p>We’re here to be your ultimate wing people on the journey from where you are right now to where you want to go. Whether you’re conquering a career goal, diving into a passion, or simply exploring the exciting unknown, we’ve got your back.</p>
+						<p>
+							<a class="link-cta link-arrow" href="/why-lssc">Why LSSC</a>
+						</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-12 col-lg-3 mb-4rem mb-lg-0">
+						<div>
+							<div class="icon-and-text">
+								<div class="icon">
+									<img src="/public/build/images/home/icon-pathway.svg" alt="">
+								</div>
+								<div class="text">
+									<h2 class="h6">
+										<p class="text-uppercase">Create a Pathway that Works for You</p>
+									</h2>
+									<p>We keep your needs and goals in mind as we guide you to the future you want.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-lg-3 mb-4rem mb-lg-0">
+						<div data-content-id="421e71f7-7040-4236-b42a-b01bbf309df7">
+							<div class="icon-and-text">
+								<div class="icon">
+									<img src="/public/build/images/home/icon-support.svg" alt="">
+								</div>
+								<div class="text">
+									<h2 class="h6">
+										<p class="text-uppercase">Feel the Support and Connections</p>
+									</h2>
+									<p>You’re way more than a number here. The faculty and staff get to know you personally.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-lg-3 mb-4rem mb-lg-0">
+						<div data-content-id="df755cf0-1c9d-40a6-a62c-59a9b8166f8f">
+							<div class="icon-and-text">
+								<div class="icon">
+									<img src="/public/build/images/home/icon-career.svg" alt="">
+								</div>
+								<div class="text">
+									<h2 class="h6">
+										<p class="text-uppercase">Prepare for Amazing Career Opportunities</p>
+									</h2>
+									<p>Whether advancing your career or just starting out, we help make the connections that lead to your dream job.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-lg-3">
+						<div data-content-id="89095a73-99fe-49e7-9d81-890a8d2ab790">
+							<div class="icon-and-text">
+								<div class="icon">
+									<img src="/public/build/images/home/icon-affordable.svg" alt="">
+								</div>
+								<div class="text">
+									<h2 class="h6">
+										<p class="text-uppercase">Benefit from Affordable Quality</p>
+									</h2>
+									<p>Your future is in reach with affordable options, at half the price of a state university.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="position-relative overflow-hidden">
+		<img id="question-one-photo" src="/public/build/images/home/photo-4.png" alt=""/>
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-12 col-lg-6 p-4rem">
+					<div class="question-box">
+						<div class="question">
+							<h2 id="start-classes-question" class="h6 text-center mb-2rem">When do you want to start classes?</h2>
+							<form id="question-1-form" aria-labelledby="start-classes-question">
+								<div class="mb-2rem" role="radiogroup" aria-labelledby="start-classes-question">
+									<div class="mb-3">
+										<div class="form-check">
+											<input class="form-check-input" type="radio" name="answer" id="q1-a1" value="january">
+											<label class="form-check-label" for="q1-a1">January</label>
+										</div>
+									</div>
+									<div class="mb-3">
+										<div class="form-check">
+											<input class="form-check-input" type="radio" name="answer" id="q1-a2" value="may_to_june">
+											<label class="form-check-label" for="q1-a2">May to June</label>
+										</div>
+									</div>
+									<div class="mb-3">
+										<div class="form-check">
+											<input class="form-check-input" type="radio" name="answer" id="q1-a3" value="august">
+											<label class="form-check-label" for="q1-a3">August</label>
+										</div>
+									</div>
+									<div class="mb-3">
+										<div class="form-check">
+											<input class="form-check-input" type="radio" name="answer" id="q1-a4" value="not_sure">
+											<label class="form-check-label" for="q1-a4">I’m not sure yet</label>
+										</div>
+									</div>
+								</div>
+								<button class="btn btn-white" type="submit">Continue</button>
+							</form>
+						</div>
+						<div id="january" class="result d-none">
+							<p>
+								<strong>Spring Start</strong>
+							</p>
+							<p>It’s sooner than you think! You’ve got a little bit of time to plan ahead, but don’t wait too long to start the process. By the time spring rolls around you’ll be ready to start fresh and tackle those big educational goals of yours.</p>
+							<p>
+								<a class="link-cta link-arrow text-dark" href="/admissions">Admissions Info</a>
+							</p>
+						</div>
+						<div id="may_to_june" class="result d-none">
+							<p>
+								<strong>Summer Start</strong>
+							</p>
+							<p>Starting in the summer is a great way to get moving toward your goals. We have numerous opportunities to earn degrees and certificates, online, in-person and hybrid.</p>
+							<p>
+								<a class="link-cta link-arrow" href="/admissions">Admissions Info</a>
+							</p>
+						</div>
+						<div id="august" class="result d-none">
+							<p>
+								<strong>Fall Start</strong>
+							</p>
+							<p>There’s nothing like LSSC in the fall. It’s buzzing with activity and is the perfect time for you to start or pick back up where you left off.
+							</p>
+							<p>
+								<a class="link-cta link-arrow text-dark" href="/admissions">Admissions Info</a>
+							</p>
+						</div>
+						<div id="not_sure" class="result d-none">
+							<p>
+								<strong>Still thinking about it?</strong>
+							</p>
+							<p>No pressure, maybe just check out some of our upcoming admissions dates or come for a visit. In the meantime, let us know how we can help.</p>
+							<p>
+								<a class="link-cta link-arrow text-dark" href="/admissions">Admissions Info</a>
+							</p>
+						</div>
+						<div class="question-reset d-none">
+							<button class="btn btn-white">Back</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-6 pt-5 pt-lg-0">
+					<h2>The first steps to your future start here!</h2>
+					<p>Our admissions process is designed to get you on the right path, right away.</p>
+					<p>
+						<a class="link-cta link-arrow" href="/admissions">Admissions Info</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container py-4rem">
+
+		<div class="upcoming-events">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-8 offset-lg-2 text-center">
+						<h2 class="h3">
+							<em>Upcoming</em>
+							Events</h2>
+						<p>Lake-Sumter State College(LSSC) offers sessions and events designed to inform students about LSSC degrees, steps to enrollment, student resources, and how to apply for financial aid.</p>
+					</div>
+					<section aria-label="calendar of events" class="bg-white p-4 rounded shadow-md"> <script type="text/javascript" src="//25livepub.collegenet.com/scripts/spuds.js"></script>
+						 <script type="text/javascript">
+																																																																																															$Trumba.addSpud({
+																																																																																															  webName: "lssc-recruiting",
+																																																																																															  spudType : "main"});
+																																																																																															</script>
+					</section>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bg-green py-4rem text-center">
+		<div class="position-relative overflow-hidden">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-12 col-lg-6 order-last order-lg-first pt-5 pt-lg-0">
+						<h2>Your success is our goal.</h2>
+						<p>With four campuses for in-person learning, plus online and hybrid options available, we’ll find the path that works best for you.</p>
+					</div>
+					<div class="col-12 col-lg-6 p-4rem">
+						<div class="question-box">
+							<div class="question">
+								<h2 id="class-format-question" class="h6 text-center mb-2rem lh-lg">Help us help you figure out your options. How do you want to take your classes?</h2>
+								<form id="question-2-form" aria-labelledby="class-format-question">
+									<div class="mb-2rem" role="radiogroup" aria-labelledby="class-format-question">
+										<div class="mb-3">
+											<div class="form-check">
+												<input class="form-check-input" type="radio" name="answer" id="q2-a1" value="on_campus">
+												<label class="form-check-label text-black" for="q2-a1">On campus</label>
+											</div>
+										</div>
+										<div class="mb-3">
+											<div class="form-check">
+												<input class="form-check-input" type="radio" name="answer" id="q2-a2" value="online">
+												<label class="form-check-label text-black" for="q2-a2">Online</label>
+											</div>
+										</div>
+										<div class="mb-3">
+											<div class="form-check">
+												<input class="form-check-input" type="radio" name="answer" id="q2-a3" value="hybrid">
+												<label class="form-check-label text-black" for="q2-a3">Hybrid</label>
+											</div>
+										</div>
+									</div>
+									<button class="btn btn-white" type="submit">Continue</button>
+								</form>
+							</div>
+							<div id="on_campus" class="result d-none">
+								<p>
+									<strong>In-person learning is the way to go!</strong>
+								</p>
+								<p>You can choose from our campuses in Leesburg, Clermont, Sumterville, and Cagan Crossings. Get ready to make deep connections with faculty and other students while you pursue your educational goals.</p>
+							</div>
+							<div id="online" class="result d-none">
+								<p>
+									<strong>Let’s stick to your schedule</strong>
+								</p>
+								<p>Choose from traditional online classes with no scheduled meeting times and work at your pace to complete assignments. Or pick real-time online classes and attend virtual class meetings.</p>
+							</div>
+							<div id="hybrid" class="result d-none">
+								<p>
+									<strong>A little bit of both? Perfect!
+									</strong>
+								</p>
+								<p>Some face-to-face on campus, so you get to make those in-person connections, but a good chunk of the course content can be done online.</p>
+							</div>
+							<div class="question-reset d-none">
+								<button class="btn btn-white">Back</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="bg-green py-4rem position-relative overflow-hidden mt-4rem">
+				<div class="green-spotlight"></div>
+				<div class="financial-hawk"></div>
+				<div class="container position-relative text-center">
+					<div class="row">
+						<div class="col-sm-12 col-lg-8 mx-auto">
+							<h2>Get ahead without the financial burden.<br><em class="c-yellow">That’s how you soar!</em>
+							</h2>
+							<p>A quality education should open doors, not empty your bank account. Let us help you navigate all the federal, state and institutional aid programs, so you can reach your educational goals. Local scholarships? We can help with those, too.</p>
+							<p>
+								<a class="link-arrow text-uppercase" href="/financial-aid">This Way to Savings</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid bg-green py-4rem">
+				<div class="row">
+					<div class="col-12 col-lg-4">
+						<div class="testimonial home">
+							<div class="testimonial-photo">
+								<img class="img-fluid" src="/public/build/images/home/sam-saulsbury.png" alt="Sam Saulsbury" width="267" height="267"/>
+							</div>
+							<div class="testimonial-body">
+								<div class="testimonial-text">
+									LSSC is a great environment with great people pushing you to do your best and accomplish your goals.
+								</div>
+								<div>
+									<div class="testimonial-name text-uppercase">Sam Saulsbury</div>
+									<div>Lineworker Boot Camp, 2022</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-lg-4">
+						<div class="testimonial home">
+							<div class="testimonial-photo">
+								<img class="img-fluid" src="/public/build/images/home/taylor-ford.png" alt="Taylor Ford" width="267" height="267"/>
+							</div>
+							<div class="testimonial-body">
+								<div class="testimonial-text">
+									LSSC has a real sense of community. Everyone that I have encountered here has always been eager to help me succeed!
+								</div>
+								<div>
+									<div class="testimonial-name text-uppercase">Taylor Ford</div>
+									<div>Class of 2024</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-lg-4">
+						<div class="testimonial home">
+							<div class="testimonial-photo">
+								<img class="img-fluid" src="/public/build/images/home/santos-aguilar.png" alt="Santos Aguilar" width="267" height="267"/>
+							</div>
+							<div class="testimonial-body">
+								<p class="testimonial-text">
+									LSSC has many opportunities for growth and allows you to make connections with outstanding faculty, staff, and peers.
+								</p>
+								<div>
+									<div class="testimonial-name text-uppercase">Santos Aguilar</div>
+									<div>Class of 2024</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="container-fluid m-0 p-0">
+			<div class="row g-0">
+				<div class="col">
+					<img class="img-fluid object-fit-cover" src="/public/build/images/home/photo-6.png" alt="10 students wearing caps and gowns, holding their diplomas." width="1881" height="719"/>
+				</div>
+			</div>
+		</div>
+
+			<div class="bg-yellow-orange py-4rem">
+				<div class="container text-center">
+					<h2 class="fs-4 mb-2rem">Ready to take flight?</h2>
+					<div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
+						<a class="mb-3 mb-lg-0 btn btn-white" target="_blank" href="https://lssc.my.salesforce-sites.com/inquiry/TargetX_Base__InquiryForm#?formId=a0BDn000002hEGZMA2&formType=general">
+							Request Info
+						</a>
+						<a class="ms-lg-3 mb-3 mb-lg-0 btn btn-white" target="_blank" href="https://www.lssc.edu/future-students/visit/">
+							Visit
+						</a>
+						<a class="ms-lg-3 mb-3 mb-lg-0 btn btn-white" target="_blank" href="https://banner.lssc.edu/apexprod/r/rtsdba/apply/login">
+							Apply Now
+						</a>
+						<a class="ms-lg-3 btn btn-white" target="_blank" href="https://www.lssc.edu/dept/enrollment-service-center/">
+							Enrollment Support
+						</a>
+						<a class="ms-lg-3 btn btn-white" target="_blank" href="https://www.lssc.edu/academic-programs/" rel="nofollow noopener">
+							Find Your Program
+						</a>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer>
+			<div class="container d-flex flex-column align-items-center">
+				<img class="footer-logo" src="/public/build/images/logo-vertical.png" alt="Lake-Sumter State College"/>
+				<div class="social-links">
+					<a href="http://facebook.com/LakeSumterStateCollege" aria-label="Like us on Facebook">
+						<i class="fa-brands fa-facebook-f"></i>
+					</a>
+					<a href="https://x.com/LSSCedu" aria-label="Follow us on X">
+						<i class="fa-brands fa-x-twitter"></i>
+					</a>
+					<a href="http://instagram.com/lakesumterstatecollege" aria-label="Connect with us on Instagram">
+						<i class="fa-brands fa-instagram"></i>
+					</a>
+					<a href="https://www.linkedin.com/school/lsscedu" aria-label="Connect with us on LinkedIn">
+						<i class="fa-brands fa-linkedin"></i>
+					</a>
+				</div>
+			</div>
+			<div id="copyright-and-privacy" class="p-3">
+				<div class="container d-flex flex-column flex-lg-row justify-content-between">
+					<div>
+						&copy;
+						
+						Lake-Sumter State College
+					</div>
+					<div>
+						<a href="https://www.lssc.edu/consumer-information/">Consumer Info</a>
+						|
+						<a href="https://www.lssc.edu/about-us/accreditation/">Accreditation Statement</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    // 1. "I want to" Dropdown Logic
+    const wantSelect = document.querySelector('#i_want');
+    if (wantSelect) {
+        wantSelect.addEventListener('change', (e) => {
+            const resultId = e.currentTarget.value;
+            if (!resultId) return;
+            document.querySelectorAll('#want-result div').forEach((el) => {
+                el.classList.add('d-none');
+            });
+            const target = document.querySelector('#' + resultId);
+            if (target) {
+                target.classList.remove('d-none');
+            }
+        });
+        const savedWant = localStorage.getItem('lssc_want');
+        if (savedWant) {
+            wantSelect.value = savedWant;
+            wantSelect.dispatchEvent(new Event('change'));
+        }
+    }
+
+    // 2. Question Box Logic
+    const handleQuestionSubmit = (form) => {
+        const questionBox = form.closest('.question-box');
+        const formData = new FormData(form);
+        const answer = formData.get('answer');
+        if (!answer) {
+            const firstRadio = form.querySelector('input[type=radio]');
+            if (firstRadio) firstRadio.focus();
+            return;
+        }
+        const result = questionBox.querySelector('#' + answer);
+        if (result) {
+            const questionDiv = questionBox.querySelector('.question');
+            if (questionDiv) questionDiv.classList.add('d-none');
+            result.classList.remove('d-none');
+            result.setAttribute('tabindex', '-1');
+            const resetBtn = questionBox.querySelector('.question-reset');
+            if (resetBtn) resetBtn.classList.remove('d-none');
+            result.focus();
+        }
+    };
+
+    document.querySelectorAll('.question form').forEach((form) => {
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            handleQuestionSubmit(form);
+        });
+
+        // Make it reactive: trigger when radio is selected
+        form.querySelectorAll('input[type=radio]').forEach((radio) => {
+            radio.addEventListener('change', () => {
+                // We can either submit automatically or just wait for the button.
+                // To match user expectation of "selection is made", we'll trigger it.
+                handleQuestionSubmit(form);
+            });
+        });
+    });
+
+    // 3. Question Reset Logic
+    document.querySelectorAll('.question-reset').forEach((el) => {
+        el.addEventListener('click', (e) => {
+            const questionBox = el.closest('.question-box');
+            if (!questionBox) return;
+
+            const questionDiv = questionBox.querySelector('.question');
+            if (questionDiv) questionDiv.classList.remove('d-none');
+
+            questionBox.querySelectorAll('.result').forEach((res) => {
+                res.classList.add('d-none');
+            });
+
+            questionBox.querySelectorAll('input').forEach((input) => {
+                input.checked = false;
+            });
+
+            el.classList.add('d-none');
+            const firstRadio = questionBox.querySelector('input[type=radio]');
+            if (firstRadio) firstRadio.focus();
+        });
+    });
+});
+</script>
+
+</body>
+</html>

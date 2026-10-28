@@ -1,0 +1,471 @@
+@import "~bootstrap/scss/bootstrap";
+
+$main-green: #00803C; // Original green: #00843d - made slightly darker for color contrast issues.
+$yellow: #ffd200;
+$orange: #fdbb30;
+$neon-green: #43b51b;
+$hideous-lighter-green: #2f835d;
+
+.bg-green {
+    color: #fff;
+    background-color: $main-green;
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #fff;
+    }
+
+    a, a:hover, a:visited, a:focus {
+        color: #fff;
+    }
+}
+
+@mixin bg-yellow-orange {
+    background: rgb(255,210,0);
+    background: linear-gradient(180deg, rgba(255,210,0,1) 50%, rgba(253,187,48,1) 100%);
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #000;
+    }
+}
+.bg-yellow-orange {
+    @include bg-yellow-orange;
+}
+
+.green-spotlight {
+    width: 120rem;
+    height: 120rem;
+    position: absolute;
+    left: -60rem;
+    top: -60rem;
+    background: transparent url('../images/neon-highlight.png') center center no-repeat;
+}
+
+.bg-green-neon-green {
+    background: $main-green;
+    background: linear-gradient(90deg, $main-green 25%, $neon-green 100%);
+}
+
+.c-white {
+    color: #fff !important;
+}
+
+.c-green {
+    color: $main-green;
+}
+
+.c-black {
+    color: #000 !important;
+}
+
+.c-yellow {
+    color: $yellow;
+}
+
+.f-relation-two {
+    font-family: 'relation-two';
+}
+
+.text-outline {
+    text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+@mixin box-round-shadow {
+    border-radius: 0.5rem;
+    box-shadow: 0 0 8px -4px #000;
+}
+.box-round-shadow {
+    @include box-round-shadow;
+}
+
+.mb-1rem {
+    margin-bottom: 1rem;
+}
+
+.mb-2rem {
+    margin-bottom: 2rem;
+}
+
+.mt-4rem {
+    margin-top: 4rem;
+}
+
+.mb-4rem {
+    margin-bottom: 4rem;
+}
+
+.ms-1rem {
+    margin-left: 1rem;
+}
+
+.p-1rem {
+    padding: 1rem;
+}
+
+.p-2rem {
+    padding: 2rem;
+}
+
+.p-4rem {
+    padding: 4rem;
+}
+
+.pt-4rem {
+    padding-top: 4rem;
+}
+.pb-4rem {
+    padding-bottom: 4rem;
+}
+
+.py-1rem {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.py-2rem {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.py-4rem {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+body {
+    font-family: 'Open Sans';
+}
+
+.skip-link {
+    position: fixed;
+    top: 0.5rem;
+    left: 0.5rem;
+    z-index: 1100;
+    padding: 0.75rem 1rem;
+    background: #fff;
+    color: #000;
+    transform: translateY(-200%);
+
+    &:focus {
+        color: #000;
+        transform: translateY(0);
+    }
+}
+
+:focus-visible {
+    outline: 3px solid #000 !important;
+    outline-offset: 3px;
+    box-shadow: 0 0 0 6px #fff !important;
+}
+
+[id], a, button, input, select, textarea {
+    scroll-margin-top: 12rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'area-normal';
+    font-weight: 700;
+    color: $green;
+
+    em {
+        padding-right: 0.4rem;
+        @include media-breakpoint-up(lg) {
+            padding-right: 1rem;
+        }
+        font-size: 150%;
+        font-family: 'relation-two';
+        font-weight: 700;
+    }
+}
+
+h1 {
+    font-size: 2.8rem;
+
+    @include media-breakpoint-up(lg) {
+        font-size: 3.2rem;
+    }
+}
+h2 {
+    font-size: 1.8rem;
+
+    @include media-breakpoint-up(lg) {
+        font-size: 3.2rem;
+    }
+}
+h3 {
+    font-size: 1.4rem;
+
+    @include media-breakpoint-up(lg) {
+        font-size: 2.8rem;
+    }
+}
+
+a, a:hover, a:visited, a:focus {
+    color: $main-green;
+    text-decoration: none;
+
+    span {
+        color: $yellow;
+    }
+
+    &.btn {
+        color: #000;
+    }
+
+    &.link-arrow {
+        text-transform: uppercase;
+    }
+    &.link-arrow::after {
+        content: ' »';
+        color: $yellow;
+    }
+
+    &.link-cta {
+        font-size: 1rem;
+        font-weight: 700;
+        padding: .75rem 1rem .75rem 0;
+    }
+}
+
+main a:not(.btn) {
+    text-decoration: underline;
+    text-decoration-thickness: 0.08em;
+    text-underline-offset: 0.15em;
+}
+
+.page-header {
+    margin-top: 9.875rem;
+    @include media-breakpoint-up(lg) {
+        margin-top: 8.125rem;
+    }
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border: 0.125rem #000 solid;
+    border-radius: 2rem;
+    font-family: 'area-normal';
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+
+    &:hover {
+        color: #000;
+        border: 0.125rem #000 solid;
+    }
+}
+
+.btn-white {
+    background-color: #fff;
+
+    &:hover {
+        background-color: #fff;
+    }
+}
+
+.btn-yellow {
+    background-color: $yellow;
+
+    &:hover {
+        background-color: $yellow;
+    }
+}
+
+.page-intro {
+    margin-bottom: 2rem;
+    text-align: center;
+
+    h1 {
+        margin-bottom: 2rem;
+        color: $main-green;
+    }
+}
+
+.icon-and-text {
+    padding: 0 2rem;
+    text-align: center;
+
+    .icon {
+        margin-bottom: 2rem;
+
+        img {
+            height: 6rem;
+            max-width: 100%;
+            object-fit: contain;
+        }
+    }
+}
+
+.three-images {
+    display: flex;
+
+    img {
+        display: block;
+        width: 33%;
+        height: auto;
+    }
+
+    img:nth-child(2) {
+        width: 34%;
+    }
+}
+
+.testimonial {
+    padding: 4rem 0;
+    @include media-breakpoint-up(lg) {
+        background: transparent url('../images/hawk-silhouette-testimonials.png') 110% center no-repeat;
+    }
+    background-size: 40%;
+
+    .testimonial-photo {
+        margin-bottom: 2rem;
+        @include media-breakpoint-up(lg) {
+            margin-bottom: 0;
+        }
+    }
+
+    .testimonial-photo img {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        border: 0.5rem $yellow solid;
+        @include media-breakpoint-up(lg) {
+            width: 100%;
+            border: 1rem $yellow solid;
+        }
+
+        border-radius: 50%;
+    }
+
+    .testimonial-body {
+        padding: 0 0 0 1rem;
+    }
+
+    .testimonial-text {
+        margin-bottom: 1rem;
+        @include media-breakpoint-up(lg) {
+            font-size: 2rem;
+        }
+        line-height: 1.25;
+        font-weight: 600;
+        color: $main-green;
+        color: #000;
+    }
+
+    .testimonial-name {
+        font-weight: 600;
+    }
+
+    &.home {
+        background: none;
+        text-align: center;
+        padding: 0;
+        margin: 2rem 0;
+
+        .testimonial-photo {
+            margin: 0 auto 2rem;
+            width: 60%;
+
+            img {
+                border: 0.5rem $yellow solid;
+            }
+        }
+
+        .testimonial-text {
+            font-size: inherit;
+            font-weight: 600;
+            color: #fff;
+        }
+    }
+}
+
+@import 'nav';
+@import 'footer';
+@import 'home';
+@import 'why_lssc';
+@import 'admissions';
+@import 'programs';
+
+.accordion {
+    border: none;
+}
+.accordion-button {
+    background: none;
+    border: none;
+    box-shadow: none;
+    color: $yellow;
+    font-size: 1.5rem; // Made this a little larger to pass color contrast issues for $yellow on $main-green.
+    font-weight: 900;
+    position: relative;
+
+    span {
+        position: absolute;
+        right: 1.2rem;
+        color: #fff;
+    }
+
+    span.open {
+        display: inline-block;
+    }
+    span.close {
+        display: none;
+    }
+
+    &::after {
+        background: none;
+    }
+
+    &:focus {
+        outline: 2px solid $yellow;
+    }
+
+    &:focus-visible {
+        outline: 2px solid $yellow;
+    }
+
+    &:not(.collapsed) {
+        background: none;
+        box-shadow: none;
+        color: $yellow;
+
+        &::after {
+            background: none;
+        }
+
+        span.open {
+            display: none;
+        }
+        span.close {
+            display: inline-block;
+        }
+    }
+}
+.accordion-item {
+    color: inherit;
+    background: none;
+    border: none;
+    border-top: 1px solid #fff;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+    &:first-of-type {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    &:last-of-type {
+        border-bottom: 1px solid #fff;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    &:not(:first-of-type) {
+        border-top: 1px solid #fff;
+    }
+}
+
+#copyright-and-privacy {
+    text-align: center;
+    @include media-breakpoint-up(lg) {
+        text-align: left;
+    }
+}

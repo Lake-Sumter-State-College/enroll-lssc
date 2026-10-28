@@ -1,0 +1,1539 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Admissions - Lake-Sumter State College</title>
+    <link rel="shortcut icon" type="image/png" href="/public/build/images/favicon.png" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/public/build/app.407ca1ee.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/civ5xkp.css" />
+
+    <script src="/public/build/app.js"></script>
+    <script src="https://kit.fontawesome.com/4aef318aa8.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="fixed-top bg-white">
+      <div class="container mb-1rem mb-lg-0">
+        <div class="d-flex flex-column flex-lg-row align-items-lg-center bg-white">
+          <nav
+            class="navbar navbar-expand-lg navbar-light bg-light flex-grow-1"
+            aria-label="Main navigation"
+          >
+            <div class="container align-items-center p-0">
+              <a class="navbar-brand" href="https://www.lssc.edu">
+                <img
+                  class="navbar-logo"
+                  src="/public/build/images/logo-horizontal.png"
+                  alt="Lake-Sumter State College Logo"
+                />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon w-75 h-75" aria-hidden="true"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto my-2 mb-lg-0 me-lg-4">
+                  <li class="nav-item">
+                    <a class="nav-link" href="/index.html"> Enrollment </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/programs.html"> Programs </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/why-lssc.html"> Why LSSC </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="/admissions.html"> Admissions </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/financial-aid.html"> Financial Aid </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="container nav-apply-now p-0 d-flex">
+            <a
+              class="nav-link btn btn-yellow flex-grow-1"
+              target="_blank"
+              href="https://lssc.my.salesforce-sites.com/inquiry/TargetX_Base__InquiryForm#?formId=a0BDn000002hEGZMA2&formType=general"
+            >
+              Request Info
+            </a>
+            <a
+              class="nav-link btn btn-yellow ms-3 flex-grow-1"
+              target="_blank"
+              href="https://banner.lssc.edu/apexprod/r/rtsdba/apply/login"
+            >
+              Apply Now
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="nav-yellow-bar"></div>
+    </header>
+
+    <main id="main-content" tabindex="-1">
+      <div class="carousel mb-4-rem">
+        <h1 class="page-title visually-hidden">Admissions</h1>
+        <img
+          class="img-fluid"
+          src="/public/build/images/admissions/header.png"
+          alt="Hawk flying over lake at sunset, large 'ADMISSIONS' text across sky."
+          width="1881"
+          height="719"
+        />
+      </div>
+      <div class="page-intro">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 mx-auto">
+              <h2 id="fuel-your-future">Fuel Your Future—Choose Your Path</h2>
+              <h3 class="text-center mb-2rem mt-4 h4 text-black">
+                Select your path to get started
+              </h3>
+              <p>
+                Your LSSC experience will be unique and tailored just for you! For a full overview
+                of our admissions process and policies,
+                <a href="https://lakesumter.co/admissions">visit our Catalog.</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 g-4 mb-4rem">
+          <div class="col">
+            <button
+              class="btn-admissions active"
+              type="button"
+              data-checklist="first-time"
+              aria-pressed="true"
+              aria-controls="first-time-persona first-time"
+            >
+              First Time in College
+            </button>
+          </div>
+          <div class="col">
+            <button
+              class="btn-admissions"
+              type="button"
+              data-checklist="re-entry"
+              aria-pressed="false"
+              aria-controls="re-entry-persona re-entry"
+            >
+              Re-entry
+            </button>
+          </div>
+          <div class="col">
+            <button
+              class="btn-admissions"
+              type="button"
+              data-checklist="transfer"
+              aria-pressed="false"
+              aria-controls="transfer-persona transfer"
+            >
+              Transfer &amp; Bachelor’s
+            </button>
+          </div>
+          <div class="col">
+            <button
+              class="btn-admissions"
+              type="button"
+              data-checklist="non-degree"
+              aria-pressed="false"
+              aria-controls="non-degree-persona non-degree"
+            >
+              Non-degree
+            </button>
+          </div>
+          <div class="col">
+            <button
+              class="btn-admissions"
+              type="button"
+              data-checklist="transient"
+              aria-pressed="false"
+              aria-controls="transient-persona transient"
+            >
+              Transient
+            </button>
+          </div>
+          <div class="col-12">
+            <button
+              class="btn-admissions"
+              type="button"
+              data-checklist="international"
+              aria-pressed="false"
+              aria-controls="international-persona international"
+            >
+              International
+            </button>
+          </div>
+          <div class="col">
+            <button
+              class="btn-admissions"
+              type="button"
+              data-checklist="dual"
+              aria-pressed="false"
+              aria-controls="dual-persona dual"
+            >
+              Dual Enrollment and Early College Programs (K-12)
+            </button>
+          </div>
+          <div class="col">
+            <button
+              class="btn-admissions"
+              type="button"
+              data-checklist="cont-ed"
+              aria-pressed="false"
+              aria-controls="cont-ed-persona cont-ed"
+            >
+              Workforce Career Training / Non-Credit
+            </button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-12 mx-auto">
+            <div id="first-time-persona" class="persona">
+              <h2>First Time in College</h2>
+              <p>You’re attending a college or university for the first time.</p>
+            </div>
+            <div id="re-entry-persona" class="persona d-none">
+              <h2>Re-entry</h2>
+              <p>
+                You’re returning to LSSC to continue your educational journey after more than three
+                semesters.
+              </p>
+            </div>
+            <div id="transfer-persona" class="persona d-none">
+              <h2>Transfer &amp; Bachelor’s</h2>
+              <p>
+                You already have an AA or AS degree or have attended another institution and want to
+                earn a bachelor’s.
+              </p>
+            </div>
+            <div id="non-degree-persona" class="persona d-none">
+              <h2>Non-degree</h2>
+              <p>
+                You're interested in enrolling in short-term courses or certificate programs for
+                personal or professional benefit.
+              </p>
+            </div>
+            <div id="transient-persona" class="persona d-none">
+              <h2>Transient</h2>
+              <p>
+                You’re already enrolled at a college but want to take classes at LSSC that will
+                count toward a degree at your home institution.
+              </p>
+            </div>
+            <div id="international-persona" class="persona d-none">
+              <h2>International</h2>
+              <p>
+                You are in the United States for the purposes of pursuing your education on a
+                non-immigrant visa (F-1, J-1, etc.) and want to take courses or earn a degree at
+                LSSC.
+              </p>
+            </div>
+            <div id="dual-persona" class="persona d-none">
+              <h2>Dual Enrollment and Early College Programs (K-12)</h2>
+            </div>
+            <div id="cont-ed-persona" class="persona d-none">
+              <h2>Workforce Career Training / Non-Credit</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="first-time" class="admissions-checklist">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-1.svg"
+                  aria-label="Step 1"
+                  width="64"
+                  height="70"
+                />
+                <h2>Apply for Admission</h2>
+                <p>
+                  The first step to becoming a Lakehawk is completing the LSSC Admissions
+                  Application. After you have applied, you will receive an email with your student
+                  ID number and Lakehawk email address.
+                </p>
+                <p>
+                  <a
+                    class="link-cta link-arrow"
+                    href="https://banner.lssc.edu/apexprod/r/rtsdba/apply/login"
+                    >Apply</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-2.svg"
+                  aria-label="Step 2"
+                  width="64"
+                  height="70"
+                />
+                <h2>Log into myLSSC</h2>
+                <p>Use your Lakehawk email and password to log into myLSSC.</p>
+                <p>
+                  <a class="link-cta link-arrow" href="https://my.lssc.edu/">Access MyLSSC</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-3.svg"
+                  aria-label="Step 3"
+                  width="64"
+                  height="70"
+                />
+                <h2>Attend a New Student Advising and Registration Session</h2>
+                <p>
+                  All first time in college and dual enrollment students must complete a New Student
+                  Advising & Registration session before registering for classes.
+                </p>
+                <p>
+                  <a
+                    class="link-cta link-arrow"
+                    href="https://www.lssc.edu/future-students/orientation/"
+                    >Register for an Orientation Session</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-4.svg"
+                  aria-label="Step 4"
+                  width="64"
+                  height="70"
+                />
+                <h2>
+                  Complete Your Florida Residency and US Citizenship/Lawful Presence Verification
+                </h2>
+                <p>
+                  Students that have been Florida residents for at least 12 months must provide
+                  documentation to receive the in-state tuition rate.
+                </p>
+                <p>
+                  All students seeking admission to and enrollment at Lake–Sumter State College must
+                  meet the citizenship or lawful presence requirements outlined in Rule 6A-10.0240
+                  of the Florida Administrative Code.
+                </p>
+                <p>
+                  <a
+                    class="link-cta link-arrow"
+                    href="https://lsc-workflow2.elluciancloud.com/webentry/floridaresidency"
+                    >Confirm US Citizenship/Florida Residency</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-5.svg"
+                  aria-label="Step 5"
+                  width="64"
+                  height="70"
+                />
+                <h2>Submit your Transcripts and Placement Scores</h2>
+                <p>
+                  Submit your official unopened high school transcripts with your graduation date
+                  posted or an original GED transcript to the Records Office address below.
+                </p>
+                <p>
+                  PERT, ACT, or SAT test scores should be sent to the Records Office. Applicants who
+                  do not have test scores need to take the PERT test.
+                </p>
+                <p>
+                  <a class="link-cta link-arrow" href="https://www.lssc.edu/transcripts"
+                    >How to submit your Transcripts</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="link-cta link-arrow"
+                    href="https://libguides.lssc.edu/testcenter"
+                    target="_blank"
+                    >Schedule an Appointment for Testing</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-6.svg"
+                  aria-label="Step 6"
+                  width="64"
+                  height="70"
+                />
+                <h2>Apply for Financial Aid & Review your Student Account</h2>
+                <p>
+                  Log in to myLSSC to review any outstanding fees you need to pay. Ensure your
+                  tuition and fees are paid before the first fee payment deadline.
+                </p>
+                <p>
+                  Complete your
+                  <a href="https://studentaid.gov/h/apply-for-aid/fafsa"
+                    >Free Application for Federal Student Aid (FAFSA)</a
+                  >
+                  – School Code 001502
+                </p>
+                <p>
+                  <a
+                    class="link-cta link-arrow"
+                    href="https://www.lssc.edu/student-resources/student-payment/"
+                    >Fee Payment Deadlines</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="link-cta link-arrow"
+                    href="https://www.lssc.edu/current-students/student-payment/"
+                    >Payment Options</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="link-cta link-arrow"
+                    href="https://www.lssc.edu/dept/financial-aid/overview/"
+                    >Financial Aid Overview</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="re-entry" class="admissions-checklist d-none">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-1.svg"
+                  aria-label="Step 1"
+                  width="64"
+                  height="70"
+                />
+                <h2>Apply for Admission</h2>
+                <p>
+                  The first step to becoming a Lakehawk is completing the LSSC Admissions
+                  Application. After you have applied, you will receive an email with your student
+                  ID number and Lakehawk email address.
+                </p>
+                <p>
+                  <a
+                    class="link-cta link-arrow"
+                    href="https://banner.lssc.edu/apexprod/r/rtsdba/apply/login"
+                    >Apply</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-2.svg"
+                  aria-label="Step 2"
+                  width="64"
+                  height="70"
+                />
+                <h2>Log into myLSSC</h2>
+                <p>
+                  Use your Lakehawk email and password to log into myLSSC. This is your student
+                  portal and the gateway to your experience at LSSC.
+                </p>
+                <p>
+                  <a class="link-cta link-arrow" href="https://my.lssc.edu/">Access MyLSSC</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-3.svg"
+                  aria-label="Step 3"
+                  width="64"
+                  height="70"
+                />
+                <h2>Make an appointment with Academic Advising</h2>
+                <p>
+                  Figure out where you should go from where you last left off by meeting with an
+                  advisor. Schedule an appointment with an academic advisor.
+                </p>
+                <p>
+                  <a
+                    class="link-cta link-arrow"
+                    href="https://www.lssc.edu/future-students/academic-advising/"
+                    >Schedule an appointment with Academic Advising</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-4.svg"
+                  aria-label="Step 4"
+                  width="64"
+                  height="70"
+                />
+                <h2>Register for classes</h2>
+                <p>
+                  <a class="link-cta link-arrow" href="https://www.lssc.edu/register"
+                    >Register for your classes</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-5.svg"
+                  aria-label="Step 5"
+                  width="64"
+                  height="70"
+                />
+                <h2>
+                  Complete Your Florida Residency and US Citizenship/Lawful Presence Verification
+                </h2>
+                <p>
+                  Students that have been Florida residents for at least 12 months must provide
+                  documentation to receive the in-state tuition rate.
+                </p>
+                <p>
+                  All students seeking admission to and enrollment at Lake–Sumter State College must
+                  meet the citizenship or lawful presence requirements outlined in Rule 6A-10.0240
+                  of the Florida Administrative Code.
+                </p>
+                <p>
+                  <a
+                    class="link-cta link-arrow"
+                    href="https://lsc-workflow.elluciancloud.com/syslsc/en/ellucianux/2841723975dc040125fec94078759851/8460005005f31a1d93a4e87041700762.php"
+                    >Confirm US Citizenship/Florida Residency</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-6.svg"
+                  aria-label="Step 6"
+                  width="64"
+                  height="70"
+                />
+                <h2>Apply for Financial Aid & Review your Student Account</h2>
+                <p>
+                  Log in to myLSSC to review any outstanding fees you need to pay. Ensure your
+                  tuition and fees are paid before the first fee payment deadline.
+                </p>
+                <p>
+                  Complete your
+                  <a href="https://studentaid.gov/h/apply-for-aid/fafsa"
+                    >Free Application for Federal Student Aid (FAFSA)</a
+                  >
+                  – School Code 001502
+                </p>
+                <p>
+                  <a
+                    class="link-cta link-arrow"
+                    href="https://www.lssc.edu/student-resources/student-payment/"
+                    >Fee Payment Deadlines</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="link-cta link-arrow"
+                    href="https://www.lssc.edu/current-students/student-payment/"
+                    >Payment Options</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="link-cta link-arrow"
+                    href="https://www.lssc.edu/dept/financial-aid/overview/"
+                    >Financial Aid Overview</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="transfer" class="admissions-checklist d-none">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-1.svg"
+                  aria-label="Step 1"
+                  width="64"
+                  height="70"
+                />
+                <h2>Apply for Admission</h2>
+                <p>
+                  The first step to becoming a Lakehawk is completing the LSSC Admissions
+                  Application. After you have applied, you will receive an email with your student
+                  ID number and Lakehawk email address.
+                </p>
+                <p>
+                  <a
+                    class="link-cta link-arrow"
+                    href="https://banner.lssc.edu/apexprod/r/rtsdba/apply/login"
+                    >Apply</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-2.svg"
+                  aria-label="Step 2"
+                  width="64"
+                  height="70"
+                />
+                <h2>Log into myLSSC</h2>
+                <p>Use your Lakehawk email and password to log into myLSSC.</p>
+                <p>
+                  <a class="link-cta link-arrow" href="https://my.lssc.edu/">Access MyLSSC</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-3.svg"
+                  aria-label="Step 3"
+                  width="64"
+                  height="70"
+                />
+                <h2>
+                  Complete Your Florida Residency and US Citizenship/Lawful Presence Verification
+                </h2>
+                <p>
+                  Students that have been Florida residents for at least 12 months must provide
+                  documentation to receive the in-state tuition rate.
+                </p>
+                <p>
+                  All students seeking admission to and enrollment at Lake–Sumter State College must
+                  meet the citizenship or lawful presence requirements outlined in Rule 6A-10.0240
+                  of the Florida Administrative Code.
+                </p>
+                <p>
+                  <a
+                    class="link-cta link-arrow"
+                    href="https://lsc-workflow.elluciancloud.com/syslsc/en/ellucianux/2841723975dc040125fec94078759851/8460005005f31a1d93a4e87041700762.php"
+                    >Confirm US Citizenship/Florida Residency</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-4.svg"
+                  aria-label="Step 4"
+                  width="64"
+                  height="70"
+                />
+                <h2>Submit your Transcripts and Placement Scores</h2>
+                <p>
+                  Submit your official unopened high school transcripts with your graduation date
+                  posted or an original GED transcript to the Records Office address below.
+                </p>
+                <p>
+                  PERT, ACT, or SAT test scores should be sent to the Records Office. Applicants who
+                  do not have test scores need to take the PERT test.
+                </p>
+                <p>
+                  <a class="link-cta link-arrow" href="https://www.lssc.edu/transcripts"
+                    >How to submit your Transcripts</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="link-cta link-arrow"
+                    href="https://libguides.lssc.edu/testcenter"
+                    target="_blank"
+                    >Schedule an Appointment for Testing</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-5.svg"
+                  aria-label="Step 5"
+                  width="64"
+                  height="70"
+                />
+                <h2>Make an appointment with Academic Advising</h2>
+                <p>
+                  Figure out where you should go from where you last left off by meeting with an
+                  advisor. Schedule an appointment with an academic advisor.
+                </p>
+                <p>
+                  <a
+                    class="link-cta link-arrow"
+                    href="https://www.lssc.edu/future-students/academic-advising/"
+                    >Schedule an appointment with Academic Advising</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-6.svg"
+                  aria-label="Step 6"
+                  width="64"
+                  height="70"
+                />
+                <h2>Register for classes</h2>
+                <p>
+                  <a class="link-cta link-arrow" href="https://www.lssc.edu/register"
+                    >Register for your classes</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-7.svg"
+                  aria-label="Step 7"
+                  width="64"
+                  height="70"
+                />
+                <h2>Apply for Financial Aid &amp; Review your Student Account</h2>
+                <p>
+                  Log in to myLSSC to review any outstanding fees you need to pay. Ensure your
+                  tuition and fees are paid before the first fee payment deadline.
+                </p>
+                <p>
+                  Complete your
+                  <a href="https://studentaid.gov/h/apply-for-aid/fafsa"
+                    >Free Application for Federal Student Aid (FAFSA)</a
+                  >
+                  – School Code 001502
+                </p>
+                <p>
+                  <a
+                    class="link-cta link-arrow"
+                    href="https://www.lssc.edu/student-resources/student-payment/"
+                    >Fee Payment Deadlines</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="link-cta link-arrow"
+                    href="https://www.lssc.edu/current-students/student-payment/"
+                    >Payment Options</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="link-cta link-arrow"
+                    href="https://www.lssc.edu/dept/financial-aid/overview/"
+                    >Financial Aid Overview</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="non-degree" class="admissions-checklist d-none">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-1.svg"
+                  aria-label="Step 1"
+                  width="64"
+                  height="70"
+                />
+                <h2>Apply for Admission</h2>
+                <p>
+                  The first step to becoming a Lakehawk is completing the LSSC Admissions
+                  Application. After you have applied, you will receive an email with your student
+                  ID number and Lakehawk email address.
+                </p>
+                <p>
+                  <a
+                    class="link-cta link-arrow"
+                    href="https://banner.lssc.edu/apexprod/r/rtsdba/apply/login"
+                    >Apply</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-2.svg"
+                  aria-label="Step 2"
+                  width="64"
+                  height="70"
+                />
+                <h2>Log into myLSSC</h2>
+                <p>Use your Lakehawk email and password to log into myLSSC.</p>
+                <p>
+                  <a class="link-cta link-arrow" href="https://my.lssc.edu/">Access MyLSSC</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-3.svg"
+                  aria-label="Step 3"
+                  width="64"
+                  height="70"
+                />
+                <h2>Register for classes</h2>
+                <p>
+                  <a class="link-cta link-arrow" href="https://www.lssc.edu/register"
+                    >Register for your classes</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-4.svg"
+                  aria-label="Step 4"
+                  width="64"
+                  height="70"
+                />
+                <h2>
+                  Complete Your Florida Residency and US Citizenship/Lawful Presence Verification
+                </h2>
+                <p>
+                  Students that have been Florida residents for at least 12 months must provide
+                  documentation to receive the in-state tuition rate.
+                </p>
+                <p>
+                  All students seeking admission to and enrollment at Lake–Sumter State College must
+                  meet the citizenship or lawful presence requirements outlined in Rule 6A-10.0240
+                  of the Florida Administrative Code.
+                </p>
+                <p>
+                  <a
+                    class="link-cta link-arrow"
+                    href="https://lsc-workflow.elluciancloud.com/syslsc/en/ellucianux/2841723975dc040125fec94078759851/8460005005f31a1d93a4e87041700762.php"
+                    >Confirm US Citizenship/Florida Residency</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-5.svg"
+                  aria-label="Step 5"
+                  width="64"
+                  height="70"
+                />
+                <h2>Review your Student Account</h2>
+                <p>
+                  Log in to myLSSC to review any outstanding fees that you need to pay. Ensure your
+                  tuition and fees are paid before the first fee payment deadline.
+                </p>
+                <p>
+                  <a
+                    class="link-cta link-arrow"
+                    href="https://www.lssc.edu/student-resources/student-payment/"
+                    >Fee payment deadlines</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="link-cta link-arrow"
+                    href="https://www.lssc.edu/current-students/student-payment/"
+                    >Payment Options</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="transient" class="admissions-checklist d-none">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-1.svg"
+                  aria-label="Step 1"
+                  width="64"
+                  height="70"
+                />
+                <h2>Check with your institution</h2>
+                <p>
+                  Talk to an Admissions officer at your home institution to determine if you are
+                  eligible. They will provide you with their process for transient students.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-2.svg"
+                  aria-label="Step 2"
+                  width="64"
+                  height="70"
+                />
+                <h2>Apply for Admission</h2>
+                <p>
+                  The first step to becoming a Lakehawk is completing the LSSC Admissions
+                  Application. After you have applied, you will receive an email with your student
+                  ID number and Lakehawk email address.
+                </p>
+                <p>
+                  <a
+                    class="link-cta link-arrow"
+                    href="https://banner.lssc.edu/apexprod/r/rtsdba/apply/login"
+                    >Apply</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-3.svg"
+                  aria-label="Step 3"
+                  width="64"
+                  height="70"
+                />
+                <h2>Log into myLSSC</h2>
+                <p>Use your Lakehawk email and password to log into myLSSC.</p>
+                <p>
+                  <a class="link-cta link-arrow" href="https://my.lssc.edu/">Access MyLSSC</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-4.svg"
+                  aria-label="Step 4"
+                  width="64"
+                  height="70"
+                />
+                <h2>Register for classes</h2>
+                <p>
+                  <a class="link-cta link-arrow" href="https://www.lssc.edu/register"
+                    >Register for your classes</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-5.svg"
+                  aria-label="Step 5"
+                  width="64"
+                  height="70"
+                />
+                <h2>Pay for your tuition fees</h2>
+                <p>
+                  Log in to myLSSC to review any outstanding fees you must pay. Be sure to pay
+                  before the first fee payment deadline after registering for classes.
+                </p>
+                <p>
+                  <a
+                    class="link-cta link-arrow"
+                    href="https://www.lssc.edu/student-resources/student-payment/"
+                    >Fee payment deadlines</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="link-cta link-arrow"
+                    href="https://www.lssc.edu/current-students/student-payment/"
+                    >Payment Options</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="international" class="admissions-checklist d-none">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-1.svg"
+                  aria-label="Step 1"
+                  width="64"
+                  height="70"
+                />
+                <h2>Apply for Admission</h2>
+                <p>
+                  The first step to becoming a Lakehawk is completing the LSSC Admissions
+                  Application.
+                </p>
+                <p>
+                  In your application, submit a financial statement showing your financial support
+                  in U.S. Dollars to the Admissions and Records Office. If you have a U.S. sponsor
+                  (U.S. citizen or U.S. resident alien) helping you for a portion of the support or
+                  all of the financial support, a U.S. immigration form (I-134 Affidavit of Support)
+                  is required along with a bank statement from a financial institution.
+                </p>
+                <p>
+                  <a
+                    class="link-cta link-arrow"
+                    href="https://banner.lssc.edu/apexprod/r/rtsdba/apply/login"
+                    >Apply</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-2.svg"
+                  aria-label="Step 2"
+                  width="64"
+                  height="70"
+                />
+                <h2>Log into myLSSC</h2>
+                <p>Use your Lakehawk email and password to log into myLSSC.</p>
+                <p>
+                  <a class="link-cta link-arrow" href="https://my.lssc.edu/">Access MyLSSC</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-3.svg"
+                  aria-label="Step 3"
+                  width="64"
+                  height="70"
+                />
+                <h2>Submit your Transcripts</h2>
+                <p>
+                  You must have the equivalent of a United States of America high school diploma.
+                  International students must arrange to have complete transcripts from all
+                  institutions outside the United States of America evaluated by an evaluation
+                  agency at their expense
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-4.svg"
+                  aria-label="Step 4"
+                  width="64"
+                  height="70"
+                />
+                <h2>Submit your TOEFL Scores</h2>
+                <p>
+                  If English is not your native language, then you must submit acceptable TOEFL
+                  scores, which are as follows:
+                </p>
+                <ul>
+                  <li>Computer-based test: 213 or higher</li>
+                  <li>Internet-based test: 79-80</li>
+                  <li>Written-based test: 550 or higher</li>
+                </ul>
+                <p>
+                  <a class="link-cta link-arrow" href="">Submit your Test Scores</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-4rem">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/shield-5.svg"
+                  aria-label="Step 5"
+                  width="64"
+                  height="70"
+                />
+                <h2>Finalize Documentation for International Study</h2>
+                <p>
+                  All international students must complete the Student and Exchange Visitor Program
+                  (SEVP) SEVIS I-901 Fee and pay the required fee. The payment receipt for the I-901
+                  Fee is required for an interview at a U.S. embassy. This fee is an addition to the
+                  normal fees the embassy may charge.
+                </p>
+                <ul>
+                  <li>
+                    <a href="https://www.fmjfee.com/i901fee/index.html">Complete the I-901 Fee</a>
+                  </li>
+                  <li>
+                    <a href="https://studyinthestates.dhs.gov/2013/01/what-is-the-i-901-sevis-fee"
+                      >What is the I-901 SEVIS Fee?</a
+                    >
+                  </li>
+                </ul>
+                <p>
+                  Proof of health insurance is required before registering for classes. Proof of
+                  health and accident insurance should be sent to the
+                  <a href="mailto:esc@lssc.edu">Enrollment Service Center</a>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="dual" class="admissions-checklist d-none">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-lg-4 mb-4rem mx-auto">
+              <div class="admissions-step">
+                <img
+                  class="admissions-badge"
+                  src="/public/build/images/admissions/dual-enrollment-programs.svg"
+                  aria-label="Dual Enrollment Programs"
+                  width="64"
+                  height="71"
+                />
+                <h2 id="dual-enrollment-programs">Explore our Dual Enrollment Programs</h2>
+                <p>
+                  Explore the many LSSC programs we offer. From camps and short-term programs,
+                  developmental courses, there are several ways to earn college credits through our
+                  dual enrollment and early college academies. Follow the steps on the individual
+                  pages to apply.
+                </p>
+                <p>
+                  <a
+                    class="link-cta link-arrow"
+                    href="https://www.lssc.edu/dept/early-college-programs/"
+                    >Get Started Now</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="cont-ed" class="admissions-checklist d-none">
+        <div class="container">
+          <div class="col-sm-12 col-lg-4 mb-4rem mx-auto">
+            <div class="admissions-step">
+              <img
+                class="admissions-badge"
+                src="/public/build/images/admissions/non-credit-workforce.svg"
+                aria-label="Non-Credit Workforce Programs"
+                width="64"
+                height="70"
+              />
+              <h2 id="non-credit-workforce-programs">Non-Credit Workforce Programs</h2>
+              <p>
+                Our non-credit workforce courses, endorsements, or certificates are designed to meet
+                your career goals and the employment needs of the surrounding area.
+              </p>
+              <p>
+                <a
+                  class="link-cta link-arrow"
+                  href="https://www.lssc.edu/dept/continuing-education/"
+                  >Get Started Now</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="three-images">
+        <img
+          src="/public/build/images/admissions/photo-1.png"
+          alt="Lake Sumter State College mascot,Swoop, holds a photo labeled THIS COULD BE YOU under a covered outdoor area with tables and chairs, creating a welcoming and enthusiastic atmosphere"
+          width="492"
+          height="355"
+        />
+        <img
+          src="/public/build/images/admissions/photo-2.png"
+          alt="Lake Sumter State College, campus fountain, green plants, trees, parked cars in background."
+          width="492"
+          height="355"
+        />
+        <img
+          src="/public/build/images/admissions/photo-3.png"
+          alt="Lake Sumter State College, students standing outdoors, smiling at the camera under a shaded walkway on a sunny day."
+          width="492"
+          height="355"
+        />
+      </div>
+
+      <div class="bg-green py-4rem position-relative overflow-hidden">
+        <div class="green-spotlight"></div>
+        <div class="container position-relative">
+          <div class="text-center mb-4rem">
+            <div data-content-id="77355563-c366-438e-9c26-3a14f3d4204e">
+              <h2>Let your best life<br /><em class="c-yellow">take flight!</em></h2>
+              <p>
+                From traditional students to continuing ed students, education is for everyone—and
+                LSSC is your partner throughout the whole process.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-4 mb-4rem mb-lg-0">
+              <div data-content-id="d1ae3b94-fe4f-48d8-b114-136e9d48e013">
+                <div class="icon-and-text">
+                  <div class="icon">
+                    <img
+                      src="/public/build/images/admissions/icon-halfprice.svg"
+                      alt=""
+                      width="92"
+                      height="96"
+                    />
+                  </div>
+                  <div class="text">
+                    <p class="text-uppercase">1/2 the price of state universities</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-4rem mb-lg-0">
+              <div data-content-id="03bd5549-ec57-4077-9c06-2ed3ab213540">
+                <div class="icon-and-text">
+                  <div class="icon">
+                    <img
+                      src="/public/build/images/admissions/icon-campus.svg"
+                      alt=""
+                      width="107"
+                      height="96"
+                    />
+                  </div>
+                  <div class="text">
+                    <p class="text-uppercase">Four Campus Locations</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div data-content-id="ce956efc-f11b-4493-a2e3-37d2056c9147">
+                <div class="icon-and-text">
+                  <div class="icon">
+                    <img
+                      src="/public/build/images/admissions/icon-computer.svg"
+                      alt=""
+                      width="131"
+                      height="96"
+                    />
+                  </div>
+                  <div class="text">
+                    <p class="text-uppercase">In-Person, Hybrid, and Online Classes</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-content-id="b899c528-35c5-4521-a125-4349e93baa1d">
+        <div class="testimonial">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-lg-3 offset-lg-1 d-flex align-items-center">
+                <div class="testimonial-photo">
+                  <img
+                    class="img-fluid"
+                    src="/public/build/images/admissions/lourdes-villaluz.jpg"
+                    alt="LOURDES VILLALUZ"
+                  />
+                </div>
+              </div>
+              <div class="col-12 col-lg-7 d-flex align-items-center">
+                <div class="testimonial-body">
+                  <div class="testimonial-text">
+                    I love LSSC for its campus vibes and the great resources available for students.
+                    Hanging out on campus post-classes is a highlight, making my college experience
+                    more enjoyable!
+                  </div>
+                  <div>
+                    <div class="testimonial-name text-uppercase">Lourdes Villaluz</div>
+                    <div>Class of 2024</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-yellow-orange py-4rem">
+        <div class="container text-center">
+          <h2 class="fs-4 mb-2rem">Ready to take flight?</h2>
+          <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
+            <a
+              class="mb-3 mb-lg-0 btn btn-white"
+              target="_blank"
+              href="https://lssc.my.salesforce-sites.com/inquiry/TargetX_Base__InquiryForm#?formId=a0BDn000002hEGZMA2&formType=general"
+            >
+              Request Info
+            </a>
+            <a
+              class="ms-lg-3 mb-3 mb-lg-0 btn btn-white"
+              target="_blank"
+              href="https://www.lssc.edu/future-students/visit/"
+            >
+              Visit
+            </a>
+            <a
+              class="ms-lg-3 mb-3 mb-lg-0 btn btn-white"
+              target="_blank"
+              href="https://banner.lssc.edu/apexprod/r/rtsdba/apply/login"
+            >
+              Apply Now
+            </a>
+            <a
+              class="ms-lg-3 btn btn-white"
+              target="_blank"
+              href="https://www.lssc.edu/dept/enrollment-service-center/"
+            >
+              Enrollment Support
+            </a>
+            <a
+              class="ms-lg-3 btn btn-white"
+              target="_blank"
+              href="https://www.lssc.edu/academic-programs/"
+              rel="nofollow noopener"
+            >
+              Find Your Program
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container d-flex flex-column align-items-center">
+        <img
+          class="footer-logo"
+          src="/public/build/images/logo-vertical.png"
+          alt="Lake-Sumter State College"
+        />
+        <div class="social-links">
+          <a href="http://facebook.com/LakeSumterStateCollege" aria-label="Like us on Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="https://x.com/LSSCedu" aria-label="Follow us on X">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+          <a
+            href="http://instagram.com/lakesumterstatecollege"
+            aria-label="Connect with us on Instagram"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/school/lsscedu"
+            aria-label="Connect with us on LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+      <div id="copyright-and-privacy" class="p-3">
+        <div class="container d-flex flex-column flex-lg-row justify-content-between">
+          <div>&copy; Lake-Sumter State College</div>
+          <div>
+            <a href="https://www.lssc.edu/consumer-information/">Consumer Info</a>
+            |
+            <a href="https://www.lssc.edu/about-us/accreditation/">Accreditation Statement</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Initialize with first tab active
+        const firstButton = document.querySelector(".btn-admissions");
+        if (firstButton) {
+          firstButton.click();
+        }
+
+        document.querySelectorAll(".btn-admissions").forEach((button) => {
+          button.addEventListener("click", (e) => {
+            const checklistValue = e.currentTarget.getAttribute("data-checklist");
+
+            // Remove active class from all buttons
+            document.querySelectorAll(".btn-admissions").forEach((btn) => {
+              btn.classList.remove("active");
+              btn.setAttribute("aria-pressed", "false");
+            });
+
+            // Add active class to clicked button
+            e.currentTarget.classList.add("active");
+            e.currentTarget.setAttribute("aria-pressed", "true");
+
+            // Hide all persona divs
+            document.querySelectorAll(".persona").forEach((el) => {
+              el.classList.add("d-none");
+              // Optional: Reset animation styles
+              el.style.opacity = "0";
+              el.style.visibility = "hidden";
+            });
+
+            // Show the selected persona
+            if (checklistValue) {
+              try {
+                const targetPersona = document.querySelector(`#${checklistValue}-persona`);
+                if (targetPersona) {
+                  targetPersona.classList.remove("d-none");
+                  targetPersona.style.opacity = "0";
+                  targetPersona.style.visibility = "visible";
+
+                  // Force reflow and fade in
+                  void targetPersona.offsetWidth;
+                  targetPersona.style.opacity = "1";
+
+                  // Update live region for screen readers
+                  let liveRegion = document.getElementById("admissions-live-region");
+                  if (!liveRegion) {
+                    liveRegion = document.createElement("div");
+                    liveRegion.id = "admissions-live-region";
+                    liveRegion.setAttribute("aria-live", "polite");
+                    liveRegion.setAttribute("aria-atomic", "true");
+                    liveRegion.style.position = "absolute";
+                    liveRegion.style.left = "-9999px";
+                    document.body.appendChild(liveRegion);
+                  }
+
+                  const title = targetPersona.querySelector("h2")?.textContent || checklistValue;
+                  liveRegion.textContent = `Showing ${title} admissions checklist`;
+                } else {
+                  console.warn(`Target persona not found for checklist value: ${checklistValue}`);
+                }
+              } catch (error) {
+                console.error("Error showing persona:", error);
+              }
+            }
+          });
+        });
+
+        // Add keyboard navigation support
+        document.addEventListener("keydown", function (e) {
+          if (document.activeElement.classList.contains("btn-admissions")) {
+            const buttons = Array.from(document.querySelectorAll(".btn-admissions"));
+            const currentIndex = buttons.indexOf(document.activeElement);
+
+            switch (e.key) {
+              case "ArrowLeft":
+                e.preventDefault();
+                const prevIndex = (currentIndex - 1 + buttons.length) % buttons.length;
+                buttons[prevIndex].focus();
+                break;
+              case "ArrowRight":
+                e.preventDefault();
+                const nextIndex = (currentIndex + 1) % buttons.length;
+                buttons[nextIndex].focus();
+                break;
+            }
+          }
+        });
+      });
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
